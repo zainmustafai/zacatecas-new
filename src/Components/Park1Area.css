@@ -1,0 +1,69 @@
+.Area1-header{
+    font-family: Roboto;
+font-size: 55px;
+font-weight: 700;
+line-height: 64.45px;
+text-align: center;
+
+}
+
+.Area1-Sub{
+    font-family: Roboto;
+font-size: 30px;
+font-weight: 400;
+line-height: 35.16px;
+text-align: center;
+
+}
+
+.Map1-header{
+    font-family: Roboto;
+font-size: 45px;
+font-weight: 700;
+line-height: 52.73px;
+text-align: center;
+
+}
+
+
+.Map1-Para{
+.font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 25.78px;
+text-align: center;
+}
+
+
+.park2-mar{
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .Area1-header{
+      
+    font-size: 30px;
+
+    
+    }
+    
+.Area1-Sub{
+   
+font-size: 30px;
+
+
+}
+
+.Map1-header{
+
+font-size: 20px;
+
+
+}
+
+.Indus-card-para {
+
+    width: auto;
+}
+
+  }

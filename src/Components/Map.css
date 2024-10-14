@@ -1,0 +1,34 @@
+.Map-border {
+    border-top-left-radius: 180px;
+}
+
+.Mp-h{
+    font-family: Roboto;
+font-size: 55px;
+font-weight: 700;
+line-height: 64.45px;
+text-align: center;
+
+}
+
+.Mp-P{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.44px;
+text-align: left;
+
+}
+
+.relative{
+    position: relative;
+}
+
+.abs-checkbox {
+    position: absolute; /* Absolute positioning relative to the nearest positioned ancestor */
+    bottom: 10px; /* Distance from the bottom of the container */
+    right: 10px; /* Distance from the right of the container */
+   
+    padding: 5px; /* Optional: to provide some space around the checkbox */
+
+  }

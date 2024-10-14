@@ -1,0 +1,102 @@
+
+.loco-headerbox{
+    background: #571517;
+    color: white;
+    padding: 10px;
+
+}
+
+.Location-Box{
+    border-radius: 5px;
+    border: 4px solid #B9302D
+   
+}
+
+.lightpink-box{
+    background: #FDF6F6;
+    padding: 17px;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+
+text-align: left;
+
+
+}
+
+
+.lightwhite-box{
+  
+    padding: 17px;
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+
+text-align: left;
+
+
+}
+
+.location-font{
+
+
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.44px;
+text-align: right;
+}
+
+.Location-header{
+    font-family: Roboto;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.47px;
+text-align: left;
+
+}
+
+.res-mt{
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    .location-font{
+
+
+       
+        font-size: 15px;
+      
+        }
+        
+        .Location-header{
+
+        font-size: 17px;
+   
+        
+        }
+        
+  }
+
+@media (max-width: 768px) {
+    .location-font{
+
+
+       
+        font-size: 10px;
+      
+        }
+        
+        .Location-header{
+
+        font-size: 13px;
+   
+        
+        }
+
+        .res-mt{
+            margin-top: 20px;
+        }
+        
+  }

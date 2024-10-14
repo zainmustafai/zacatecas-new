@@ -1,0 +1,38 @@
+.home_hero_section {
+  
+  border-bottom-right-radius: 16%;
+  /* overflow: hidden; */
+  position: relative;
+  z-index: 100;
+  /* box-shadow: 10px 10px 0 0 #752E2E, -10px 10px 0 0 #752E2E; */
+}
+
+.hero_controls {
+  position: absolute;
+  left: 2%;
+  bottom: 3%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: start;
+}
+
+.hero_audio_controller {
+  /* position: absolute; */
+  /* left: 2%; */
+  /* bottom: 2%; */
+  aspect-ratio: 1;
+  border-radius: 50%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (width<700px) {
+  .hero_controls {
+    bottom: -5%;
+    transform: translateY(100%);
+    z-index: 0;
+  }
+}

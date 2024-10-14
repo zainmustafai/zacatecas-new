@@ -1,0 +1,95 @@
+.area-border {
+    border-top-right-radius: 180px;
+}
+
+
+
+
+.Airport {
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    padding: 10px;
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 29.29px;
+
+
+}
+
+.arrow-button {
+    position: absolute;
+    bottom: 0;
+    right: 4.7%;
+    background: #9E342D;
+    padding: 0px 23px;
+    font-size: 27px;
+    border-radius: 0px 0px 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+
+/* arrowbutton plus fonts media query */
+
+@media screen and (max-width: 1399px) {
+    .arrow-button {
+       
+        right: 2.1%;
+      
+    }
+  }
+
+@media screen and (max-width: 995px) {
+    .arrow-button {
+        position: absolute;
+        bottom: 0;
+        right: 3.1%;
+        background: #9E342D;
+        padding: 0px 23px;
+        font-size: 18px;
+        border-radius: 0px 0px 4px;
+    }
+
+    .Airport {
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+        padding: 10px;
+        color: white;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 29.29px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .arrow-button {
+        right: 4.1%;
+        font-size: 14px;
+        border-radius: 0px 0px 4px;
+    }
+
+    .Airport {
+    
+        font-size: 12px;
+      
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .arrow-button {
+        right: 5.5%;
+        font-size: 9px;
+        border-radius: 0px 0px 1px;
+    }
+
+    .Airport {
+        font-size: 9px;
+    }
+  }

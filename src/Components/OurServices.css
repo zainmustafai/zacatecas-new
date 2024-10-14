@@ -1,0 +1,28 @@
+.header-services{
+    font-family: Roboto;
+font-size: 55px;
+font-weight: 700;
+line-height: 64.45px;
+text-align: center;
+
+}
+
+/* card */
+
+.Indus-card-heading{
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 28.12px;
+    text-align: center;
+
+
+}
+
+.Indus-card-para{
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 19.92px;
+    text-align: center;
+    width: 60%;;
+
+}

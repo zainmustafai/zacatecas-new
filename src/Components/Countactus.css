@@ -1,0 +1,142 @@
+.contact-box {
+  background: #9e342d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56.06px;
+  width: 56.06px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contact-box1 {
+  background: #9e342d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56.06px;
+  width: 56.06px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contact-box2 {
+  background: #9e342d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56.06px;
+  width: 65px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.box-form {
+  background: gray;
+  border-radius: 20px;
+}
+
+.gettouch {
+  margin: 10px auto;
+  max-width: 88%;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.16px;
+}
+
+.contact-underlined {
+  border: 2px solid #9e342d;
+  max-width: 20%;
+  margin-bottom: 10px;
+}
+
+/* contact box 2 media query  */
+
+@media (max-width: 1200px) {
+  .contact-box2 {
+    width: 88px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-box2 {
+    width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-box2 {
+    width: 81px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-box2 {
+    width: 99px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-box2 {
+    width: 109px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-box2 {
+    width: 116px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-box2 {
+    width: 116px;
+  }
+}
+
+@media (max-width: 355px) {
+  .contact-box2 {
+    width: 126px;
+  }
+}
+
+.form-control::placeholder {
+  color: black !important;
+  opacity: 1 !important; /* Ensure the placeholder text is fully opaque */
+}
+
+/* Countactus.css */
+
+/* UPDATED STYLES */
+.contact__form__container {
+  background-color: transparent !important;
+  /* Glassmorphism */
+  backdrop-filter: blur(5px);
+  border: 2px solid #7a2823   !important;
+}
+
+.contact__form__container h1{
+    color: #fff !important;
+}
+.form-control {
+  border: 1px solid #eb2a20;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+  border-color: #9e342d;
+  box-shadow: 0 0 0 0.2rem rgba(158, 52, 45, 0.25);
+}
+
+.buttonn:hover {
+  background-color: #7a2823;
+  border-color: #9e342d;
+}
+
+@media (max-width: 768px) {
+  .form-control {
+    margin-bottom: 1rem;
+  }
+}

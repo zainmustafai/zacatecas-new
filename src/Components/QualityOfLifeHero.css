@@ -1,0 +1,66 @@
+.qol_hero-border {
+  /* background-image: url("/assets/qv.jpg"); */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-bottom-right-radius: 16%;
+
+}
+
+.qol_hero-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+  z-index: 1;
+}
+
+.hero-heading,
+.hero-subheading {
+  z-index: 2;
+  position: relative;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-subheading {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 1.5rem;
+  }
+
+  .hero-subheading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 1.2rem;
+  }
+
+  .hero-subheading {
+    font-size: 1.5rem;
+  }
+}

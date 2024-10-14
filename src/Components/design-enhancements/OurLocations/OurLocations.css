@@ -1,0 +1,59 @@
+.our-locations-container {
+  padding: 10vh 0;
+  text-align: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.our-locations-heading {
+  color: #fff;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 100;
+  font-size: 2.5rem;
+}
+
+.our-locations-subheading {
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+  z-index: 100;
+  font-size: 1.5rem;
+}
+
+.our-locations-map {
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  size: 100%;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .our-locations-heading {
+    font-size: 2rem;
+  }
+
+  .our-locations-subheading {
+    font-size: 1.2rem;
+  }
+}
+
+.map-image {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  margin-top: 10%;
+}
+@media (max-width: 480px) {
+  .our-locations-heading {
+    font-size: 2rem;
+  }
+
+  .our-locations-subheading {
+    font-size: 1rem;
+  }
+}

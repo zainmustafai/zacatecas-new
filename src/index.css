@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --primary-background: #752e2e;
+}
+
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+* {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+body {
+  margin: 0;
+  font-family: "Plus Jakarta San", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* HERO RELATED */
+.boxShadowPrimary {
+  box-shadow: 5px 10px 0 0 #752e2e, -10px 10px 0 0 #752e2e;
+}
+.blackOverlay {
+  position: relative;
+  z-index: 1;
+}
+.blackOverlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text readability */
+  z-index: 1;
+}
+
+/*
+Custom Utility Classes
+*/
+
+.text-primary1 {
+  color: #752e2e;
+}
+.text-white {
+  color: white !important;
+}
+.roundedBR {
+  border-bottom-right-radius: 16% !important;
+}

@@ -1,0 +1,12 @@
+.Companies-border{
+    border-top-left-radius: 180px;
+}
+
+
+
+.Company-underline {
+    border-bottom: 4px solid #D65757;
+    width: 31%;
+    margin: 0 auto;
+    position: relative;
+}

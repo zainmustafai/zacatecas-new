@@ -1,0 +1,26 @@
+.floating_chat_icon {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  aspect-ratio: 1;
+  z-index: 100;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: #752e2e;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.floating_chat_icon:hover {
+  background-color: #774747;
+}
+
+.floating_chat_icon .internal {
+  border: 2px solid white;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  padding: 6px;
+}

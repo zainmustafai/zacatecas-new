@@ -1,0 +1,24 @@
+.about-underline {
+    border: 2px solid #D65757;
+    width: 20%;
+}
+
+.p-about-width{
+    width: 88%;
+}
+
+.font-p-about{
+    font-size: 21px;
+}
+
+
+@media (max-width: 991px) {
+        .font-p-about{
+            font-size: 12px;
+        }
+
+        .about-image{
+            height: 100%;
+        }
+    }
+    
